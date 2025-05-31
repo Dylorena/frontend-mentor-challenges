@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style type="text/tailwindcss">
+      @theme {
+        --color-slate-300: hsl(212, 45%, 89%);
+        --color-slate-500: hsl(216, 15%, 48%);
+        --color-slate-900: hsl(218, 44%, 22%);
+
+        --color-white: hsl(0, 0%, 100%);
+
+        --text-preset-1: 22px;
+        --text-preset-2: 15px;
+      }
+
+      .font {
+        font-family: "Outfit", sans-serif;
+      }
+
+      .font-title {
+        font-weight: 700;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-300 font h-[100vh] flex items-center justify-center">
+    <main class="text-center">
+      <div
+        class="flex flex-col items-center bg-white w-[20rem] h-[31.1875rem] rounded-[20px] p-[16px]"
+      >
+        <img
+          src="./images/image-qr-code.png"
+          width="288px"
+          class="rounded-[10px]"
+        />
+
+        <section class="p-4">
+          <h4 class="text-preset-1 text-slate-900 mb-4 font-title">
+            Improve your front-end skills by building projects
+          </h4>
+
+          <p class="text-preset-2 text-slate-500">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="absolute bottom-0">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Dylorena">Dylorena</a>.
+    </footer>
+  </body>
+</html>
