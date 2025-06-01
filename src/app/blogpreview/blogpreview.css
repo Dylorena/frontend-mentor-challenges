@@ -3,10 +3,10 @@
 @layer theme {
   @theme {
     --color-yellow: #F4D04E;
-    --white: #FFF;
+    --color-white: #FFF;
 
-    --gray-500: #111;
-    --gray-950: #6B6B6B;
+    --color-gray-500: #6B6B6B;
+    --color-gray-950: #111;
 
     --spacing-0: 0rem;
     --spacing-50: 0.25rem;
