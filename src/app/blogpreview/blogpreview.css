@@ -1,0 +1,17 @@
+@import "./components/typografy/typografy.css";
+
+@layer theme {
+  @theme {
+    --color-yellow: #F4D04E;
+    --white: #FFF;
+
+    --gray-500: #111;
+    --gray-950: #6B6B6B;
+
+    --spacing-0: 0rem;
+    --spacing-50: 0.25rem;
+    --spacing-100: 0.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-150: 1.5rem;
+  }
+}
