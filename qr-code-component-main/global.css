@@ -1,0 +1,34 @@
+@theme {
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+
+  --color-white: hsl(0, 0%, 100%);
+}
+
+.font {
+  font-family: "Outfit", sans-serif;
+}
+
+.text-preset-1 {
+  font-size: 1.375rem; /* 22px */
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-size: 0.9375rem; /* 15px */
+  font-weight: normal;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
