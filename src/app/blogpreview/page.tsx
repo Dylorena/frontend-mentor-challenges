@@ -32,7 +32,7 @@ export default function BlogPreview() {
           </Typografy>
 
           <Typografy as="time" variant="preset-3">Published 21 Dec 2023 </Typografy>
-          <Typografy as="h1" variant="preset-1" className="hover:text-yellow">
+          <Typografy as="h1" variant="preset-1" className="hover:text-yellow transition-all duration-200 prefer motion-reduce:duration-300">
             HTML & CSS foundations
           </Typografy>
           <Typografy as="p" variant="preset-2" color="text-gray-500">
