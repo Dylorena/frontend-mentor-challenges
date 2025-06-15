@@ -1,9 +1,9 @@
 type Props<T extends React.ElementType> = {
   as?: T;
   variant: "preset-1" | "preset-2" | "preset-3" | "preset-3-b";
-  color?: any;
+  color?: string;
   children: React.ReactNode;
-  className?: any;
+  className?: string;
 } & React.ComponentPropsWithoutRef<T>;
 
 export function Typografy<T extends React.ElementType = "span">({
