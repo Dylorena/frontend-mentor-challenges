@@ -1,14 +1,13 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./social.css";
-import Social from "./components/socialItem";
 import Head from "next/head";
 import SocialList from "./components/socialList";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-figtree",
-});
+// const inter = Inter({
+//   subsets: ["latin"],
+//   weight: ["400", "600", "700"],
+//   variable: "--font-figtree",
+// });
 
 export default function SocialLink() {
   return (
@@ -19,7 +18,7 @@ export default function SocialLink() {
       <main className="bg-[var(--color-grey-800)] p-11 rounded-lg">
         <h1 className="text-white">Jessica Randall</h1>
         <small className="text-[var(--color-green)]">
-          London, United Kingdom "Front-end developer and avid reader."
+          {'London, United Kingdom "Front-end developer and avid reader."'}
         </small>
         <SocialList />
       </main>
