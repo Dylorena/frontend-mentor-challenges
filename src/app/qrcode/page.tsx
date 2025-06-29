@@ -1,5 +1,5 @@
 import { Outfit } from "next/font/google";
-import "./global.css";
+import "./qrcode.css";
 import Head from "next/head";
 import Image from "next/image";
 
